@@ -28,7 +28,15 @@ html {
 
 h3 {
     text-transform: uppercase;
+    color: #41464b;
 }
+
+p {
+    color: #64707b;
+    font-size: 15px;
+    font-weight: 300;
+}
+
 /*
 -----------------------------
 |   |Content Box
@@ -44,18 +52,20 @@ h3 {
     text-align: center;
     margin: 0 0 30px 0;
 }
-.content-title-underline{
+
+.content-title-underline {
     width: 30px;
     height: 4px;
     background-color: #34c6d3;
-    margin: 0 auto 30px auto;  
+    margin: 0 auto 30px auto;
 }
+
 /*
 -----------------------------
 |   | Generic button
 -----------------------------
 */
-.btn-general{
+.btn-general {
     border-width: 2px;
     border-radius: 0;
     padding: 12px 26px 12px 26px;
@@ -64,13 +74,13 @@ h3 {
     text-transform: uppercase;
 }
 
-.btn-white{
+.btn-white {
     border-color: #fff;
     color: #fff;
 }
 
 .btn-white:hover,
-.btn-white:focus{
+.btn-white:focus {
     background-color: #fff;
     color: #41464b;
 }
@@ -80,18 +90,19 @@ h3 {
 |   | Generic PARALLAX
 -----------------------------
 */
-.bg-parallax{
+.bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
 /*
 -----------------------------
 |   | Animate
 -----------------------------
 */
-#home-cover,
+/*#home-cover,
 #home-heading,
 #home-btn{
    animation-duration: .5s; 
@@ -105,49 +116,75 @@ h3 {
 #home-btn{
     animation-delay: .2s;
 }
+*/
 /*
 -----------------------------
 |   | Home Section
 -----------------------------
 */
-#home{
+#home {
     height: 100%;
 }
 
-#home-cover{
+#home-cover {
     background-image: url("../img/bg-home.jpg");
     height: 100%;
 }
 
-#home-content-box{
+#home-content-box {
     width: 100%;
     height: 100%;
     display: table;
 }
 
-#home-content-box-inner{
+#home-content-box-inner {
     display: table-cell;
     vertical-align: middle;
 }
 
-#home-heading h3{
+#home-heading h3 {
     color: #fff;
     font-size: 55px;
     font-weight: 700;
     margin: 20px 0 20px 0;
 }
 
+/*
+-----------------------------
+|   | Services Section
+-----------------------------
+*/
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
 
+.service-item-icon {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
 
+.service-item-icon:hover {
+    color: #fff;
+    background-color: #34c6d3;
+}
 
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
 
-
-
-
-
-
-
-
+.service-item-des p {
+    margin: 0;
+    padding-left: 85px;
+}
 
 
 
