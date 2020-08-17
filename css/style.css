@@ -241,6 +241,34 @@ p {
 
 #about-btn {}
 
+/*
+-----------------------------
+|   | Work Section
+-----------------------------
+*/
+.no-gutters{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.image-wrapper img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.image-wrapper {
+    overflow: hidden;
+}
+
+.image-wrapper img{
+    -webkit-transition: -webkit-transform .75s ease;
+    transition: -webkit-transform .75s ease;
+    transition: transform .75s ease;
+    transition: transform .75s ease, 
+        -webkit-transform .75s ease;
+}
+
 
 
 
