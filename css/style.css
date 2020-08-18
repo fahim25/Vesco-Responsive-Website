@@ -39,6 +39,36 @@ p {
 
 /*
 -----------------------------
+|   | Social Icons
+-----------------------------
+*/
+.social-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.social-list li {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 20px;
+}
+
+.icon-grey {
+    color: #64707b;
+}
+
+.icon-grey i:hover {
+    color: #34c6d3;
+}
+
+/*
+-----------------------------
 |   |Content Box
 -----------------------------
 */
@@ -239,19 +269,17 @@ p {
     margin-bottom: 30px;
 }
 
-#about-btn {}
-
 /*
 -----------------------------
 |   | Work Section
 -----------------------------
 */
-.no-gutters{
+.no-gutters {
     padding-left: 0;
     padding-right: 0;
 }
 
-.image-wrapper img:hover{
+.image-wrapper img:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     cursor: zoom-in;
@@ -261,17 +289,41 @@ p {
     overflow: hidden;
 }
 
-.image-wrapper img{
+.image-wrapper img {
     -webkit-transition: -webkit-transform .75s ease;
     transition: -webkit-transform .75s ease;
     transition: transform .75s ease;
-    transition: transform .75s ease, 
-        -webkit-transform .75s ease;
+    transition: transform .75s ease, -webkit-transform .75s ease;
 }
 
+/*
+-----------------------------
+|   | Team Section
+-----------------------------
+*/
+.team-member {
+    margin: 0 15px;
+}
 
+.team-info {
+    padding: 15px 0 30px 0;
+}
 
+.team-name {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
 
+.team-desig {
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
 
 
 
