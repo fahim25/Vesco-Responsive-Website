@@ -16,8 +16,23 @@ $(function () {
     $("#work").magnificPopup({
         delegate: 'a',
         type: 'image',
-        gallery:{
+        gallery: {
             enabled: true
         }
+    });
+});
+/*
+-----------------------------
+|   | Team Section
+-----------------------------
+*/
+
+$(function () {
+    $("#team-members").owlCarousel({
+        item: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
     });
 });
