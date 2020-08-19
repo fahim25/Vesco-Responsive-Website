@@ -29,7 +29,22 @@ $(function () {
 
 $(function () {
     $("#team-members").owlCarousel({
-        item: 3,
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+    });
+});
+
+/*
+-----------------------------
+|   | Testimonial
+-----------------------------
+*/
+$(function () {
+    $("#customer-testimonial").owlCarousel({
+        items: 1,
         autoplay: true,
         smartSpeed: 700,
         loop: true,
