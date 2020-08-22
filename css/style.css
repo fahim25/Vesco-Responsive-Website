@@ -432,8 +432,19 @@ p {
     text-transform: uppercase;
 }
 
+.pricing-lg{
+    padding: 90px 0;
+    margin: 0;
+    background-color: #34c6d3;
+}
 
-
+.pricing-lg h4{
+    color: #34c6d3;
+    background-color: #fff;
+}
+.pricing-lg .pricing-spc>li>p{
+    color: #fff;
+}
 
 
 
