@@ -65,6 +65,13 @@ p {
 .icon-grey {
     color: #64707b;
 }
+.icon-white{
+	color: #fff;
+}
+
+.icon-white:hover{
+	color: #34c6d3; 
+}
 
 .icon-grey i:hover {
     color: #34c6d3;
@@ -485,11 +492,48 @@ p {
 */
 .client{
     padding: 40px 0;
+}/*
+-----------------------------
+|   | Footer
+-----------------------------
+*/
+footer{
+    background-color: #41464b;
+	padding-top: 30px;
+	border-top: 5px solid rgba(0,0,0,0.1);
+}
+#contact-left h3{
+	color: #fff;
+	font-size: 27px;
+	font-weight: 700;
 }
 
+#contact-left p{
+	color: #fff;
+	margin-bottom: 30px;
+}
 
-
-
+#contact-info{
+	background-image: url(../img/world-map.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+address{
+	color: #fff;
+}
+address p{
+	color: #fff;
+}
+address strong,
+#mbl-email>p>strong{
+	letter-spacing: 1px;
+}
+#mbl-email strong{
+	color: #fff;
+}
+#mbl-email p{
+	color: #fff;
+}
 
 /*
 -----------------------------
