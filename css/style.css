@@ -138,6 +138,17 @@ p {
 	color: #fff;
 }
 
+.btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 3px 15px;
+	border-radius: 0;
+	display: none;
+}
+
 /*
 -----------------------------
 |   | Generic PARALLAX
@@ -620,13 +631,15 @@ form .form-control {
 |   | Navigation
 -----------------------------
 */
-.navbar{
+.navbar {
 	padding: 20px 0;
 }
-.vesco-top-nav{
-	background: rgba(0,0,0,0.7);
+
+.vesco-top-nav {
+	background-color: rgba(0, 0, 0.7);
 	padding: 7px 0;
 }
+
 .navbar-nav > li > a {
 	color: #fff;
 	font-size: 15px;
@@ -634,16 +647,23 @@ form .form-control {
 	letter-spacing: 1px;
 	font-weight: 700;
 }
-.nav-link{
+
+.nav-link {
+	color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	background: none !important;
 	color: #34c6d3 !important;
 }
-.nav-link:hover,
-.nav-link:focus{
-	background: none !important;
-	color: #23A88E !important;
+
+.nav-item {
+	background-color: rgba(0, 0, 0.7);
 }
-.navbar-toggler{
-	background-color: rgba(0,0,0,0.7);
+
+.navbar-toggler {
+	background-color: rgba(0, 0, 0, 0.7);
 	border: 1px solid #fff;
 	color: #fff;
 	width: 40px;
@@ -651,19 +671,25 @@ form .form-control {
 	margin-right: 3px;
 	border-radius: 0;
 }
-.navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 5px;
+
+.navbar-toggler .line {
+	width: 100%;
+	float: left;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 5px;
 }
-.navbar-collapse{
+
+.navbar-collapse {
 	max-height: 0 !important;
-	text-align: right;
+	text-align: center;
 	padding-right: 10px;
-	
 }
+
+.nav-item > a.active {
+	color: #34c6d3 !important;
+}
+
 /*
 -----------------------------
         Default values

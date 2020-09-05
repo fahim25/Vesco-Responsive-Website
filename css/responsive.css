@@ -1,0 +1,29 @@
+/*
+-----------------------------
+|   | Media Queries
+-----------------------------
+*/
+/*Large Devices*/
+@media(min-width: 1200px;){
+	
+}
+/*Medium Devices*/
+@media(min-width: 992px;) amd (max-width: 1199px;{
+	
+}
+/*Small Devices*/
+@media(min-width: 768px;) and (max-width: 991px;){
+	
+}
+/*Extra Small Devices*/
+@media(min-width: 767px;){
+	
+}
+/*Extra Small Mobile Devices*/
+@media(min-width: 480px;){
+	
+}
+/*Extra Extra Small Mobile Devices*/
+@media(min-width: 320px;){
+	
+}
