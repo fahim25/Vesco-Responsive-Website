@@ -34,6 +34,17 @@ $(function () {
 		smartSpeed: 700,
 		loop: true,
 		autoplayHoverPause: true,
+		responsive:{
+			0: {
+				items: 1
+			},			
+			480: {
+				items: 2
+			},			
+			768: {
+				items: 3
+			}
+		}
 	});
 });
 
@@ -48,7 +59,8 @@ $(function () {
 		autoplay: true,
 		smartSpeed: 700,
 		loop: true,
-		autoplayHoverPause: true,
+		autoplayHoverPause: true
+		
 	});
 });
 /*
@@ -76,6 +88,20 @@ $(function () {
 		smartSpeed: 700,
 		loop: true,
 		autoplayHoverPause: true,
+		responsive:{
+			0: {
+				items: 1
+			},			
+			480: {
+				items: 3
+			},			
+			768: {
+				items: 5
+			},			
+			992: {
+				items: 6
+			},
+		}
 	});
 });
 /*
