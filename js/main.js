@@ -96,6 +96,12 @@ $(function () {
 		}
 	});
 });
+//Close Mobile Menu of click
+$(function () {
+	$(".navbar-collapse li a").on("click touch", function(){
+		$(".navbar-toggler").click();
+	});
+});
 
 //Smooth Scroll
 $(function () {
